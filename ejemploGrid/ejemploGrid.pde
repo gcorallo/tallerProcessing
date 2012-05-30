@@ -1,3 +1,6 @@
+//Ejemplo de grids(grillas).
+//tallerProcessing
+//https://github.com/gcorallo/tallerProcessing
 int modo;
 int filas, columnas;
 int dx, dy;
@@ -42,13 +45,13 @@ void draw() {
 
 void keyPressed() {
   if (key=='1') {
-    modo=1;
+    modo=1;//cruces
   }
   else if (key=='2') {
-    modo=2;
+    modo=2;//lineas
   }
   else if (key=='3') {
-    modo=3;
+    modo=3;//elipses
   }
 }
 
