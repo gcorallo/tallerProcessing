@@ -7,9 +7,6 @@ void setup() {
   
   activo=false;
 }
-
-
-
 void draw() {
   
   if(activo){//equivalente a usar if(activo==true){
@@ -21,7 +18,7 @@ void draw() {
 
 void dibujarFlor(int x, int y) {
    
-  for (int i=0;i<10;i++) {
+  for (int i=0;i<3;i++) {
     float dc=random(-20,20);
     fill(200+dc,100,150-dc,200);
     float dx=random(-10, 10);

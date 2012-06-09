@@ -15,10 +15,10 @@ void setup() {
   smooth();
   //Inicializcióm variables.
   diam=0;
-  inicioX=150;
+  inicioX=20;
   separacion=width/(valores.length+1);
   escalaY=3; //escala para rectángulos
-  escalaDiam=1.3; //escala para elipses
+  escalaDiam=1; //escala para elipses
   modo=true; //true: elipses, false: rectángulos.
 }
 void draw() {
@@ -37,15 +37,13 @@ void draw() {
       ellipse(inicioX+i*separacion, height/2, diam, diam);
     }
     else {
-      rect(inicioX+i*separacion, height, 50, -valores[i]*escalaY);
+      rect(inicioX+i*separacion, height, 50, (-1)*valores[i]*escalaY);
     }
   }
 }
-
-
-void keyPressed() {
+void keyPressed() { 
   if (key=='m') {
-    modo = !modo;
+    modo = !modo;  
   }
 }
 

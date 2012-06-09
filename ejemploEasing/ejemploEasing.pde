@@ -4,7 +4,7 @@
 //Para ver más sobre easing: http://www.robertpenner.com/easing/
 
 float xPos,yPos,xVel,yVel;
-float easing=0.1;//valor entre 0 y 1.
+float easing=0.5;//valor entre 0 y 1.
 float diam=50;
 
 void setup(){

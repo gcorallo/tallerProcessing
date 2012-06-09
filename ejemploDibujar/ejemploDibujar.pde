@@ -42,7 +42,7 @@ void keyPressed() {
   }
 }
 
-void mousePressed() {
+void mouseMoved() {
   activo=true;
 }
 void mouseReleased() {

@@ -17,7 +17,7 @@ void setup() {
 void draw() {
   
   if (activo) {
-    if (!primeraVez) {
+    if (primeraVez==false) {
       line(px, py, mouseX, mouseY);
     }
     else {
